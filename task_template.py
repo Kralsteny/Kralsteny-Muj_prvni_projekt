@@ -6,6 +6,7 @@ author: Stanislav Šilhán
 email: xsils001@gmail.com
 discord: Standa.silhan#2772
 """
+import ...
 '''
 TEXTS = ['''
 Situated about 10 miles west of Kemmerer,
@@ -35,4 +36,23 @@ in modern oceans. Other fish such as paddlefish,
 garpike and stingray are also present.'''
 ]
 
-jmeno = input("smrdíš")
+registrovani_uzivatele = {"bob":"123", "ann":"pass123", "mike": "password123", "liz":"pass123"}
+oddelovac = 30*"-"
+
+jmeno = input("Username: ")
+heslo = input("password: ")
+
+print(oddelovac)
+
+if jmeno in registrovani_uzivatele.keys() and heslo in registrovani_uzivatele.values():
+    print("Welcome to the app,", jmeno,
+"We have 3 texts to be analyzed.")
+else:
+    print("unregistered user, terminating the program..")
+    exit()
+
+print(oddelovac)
+
+vyber_textu = input("enter a number btw. 1 and 3 to select: ")
+
+
