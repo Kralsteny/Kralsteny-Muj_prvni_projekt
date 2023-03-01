@@ -55,4 +55,16 @@ print(oddelovac)
 
 vyber_textu = input("enter a number btw. 1 and 3 to select: ")
 
-
+if vyber_textu.isalpha():
+    print("You choosed wrong number or unknown symbol")
+    quit()
+elif vyber_textu in (".",",",":","!","@","?"):
+    print("You choosed wrong number or unknown symbol")
+    quit()
+elif int(vyber_textu) in range(1,4):
+    print("yes")
+else:
+    print("You choosed wrong number or unknown symbol")
+    quit()
+    
+print(oddelovac)
