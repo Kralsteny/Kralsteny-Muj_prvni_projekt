@@ -34,16 +34,5 @@ other freshwater genera and herring similar to those
 in modern oceans. Other fish such as paddlefish,
 garpike and stingray are also present.'''
 ]
-fsdsFsfsd
-faSFaF
-asFA
-bkhbk
-afasa
-sdgsGs
-sfsDFsfs
-fsdfsdfs
-sdfsfsf
-sfsfs
-sgs
-sgs
-globalsgs
+
+jmeno = input("smrdíš")
