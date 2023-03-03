@@ -62,9 +62,25 @@ elif vyber_textu in (".",",",":","!","@","?"):
     print("You choosed wrong number or unknown symbol")
     quit()
 elif int(vyber_textu) in range(1,4):
-    print("yes")
+    next
 else:
     print("You choosed wrong number or unknown symbol")
     quit()
-    
+
 print(oddelovac)
+
+
+for slova in enumerate(TEXTS[int(vyber_textu)-1].split()):
+    next
+    
+# Počet slov výsledek
+
+print("There are", slova[0]+1, "words in the selected text.")
+
+print(oddelovac)
+
+print("LEN|  OCCURENCES  |NR.")
+
+print(oddelovac)
+
+
